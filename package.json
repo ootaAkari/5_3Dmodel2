@@ -1,0 +1,32 @@
+{
+  "name": "model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ootaAkari/model.git"
+  },
+  "author": "ootaAkari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ootaAkari/model/issues"
+  },
+  "homepage": "https://github.com/ootaAkari/model#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "three": "^0.128.0"
+  }
+}
